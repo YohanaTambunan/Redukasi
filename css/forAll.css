@@ -1,0 +1,48 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Yeseva+One&display=swap");
+
+body {
+     background-color: ivory;
+}
+.navbar-title {
+     text-decoration: none;
+     color: #084647;
+     font-size: 30px;
+}
+.navbar-title:hover {
+     color: #3c6d96;
+}
+.navlist {
+     padding-right: 30px;
+     text-decoration: none;
+     color: #084647;
+}
+.navlist:hover {
+     color: #3c6d96;
+}
+#navbar {
+     background-color: #4d9091;
+}
+
+.judul {
+     font-family: "Yeseva One", cursive;
+}
+#judul {
+     font-family: "Yeseva One", cursive;
+}
+.judul1 {
+     font-family: "Yeseva One", cursive;
+     color: #b0caca;
+     font-size: 80px;
+}
+#footer {
+     background-color: #4d9091;
+     color: #3c6d96;
+}
+.img {
+     width: 250px;
+     height: 60px;
+     padding-top: 0%;
+     margin: 0;
+}

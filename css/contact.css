@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Yeseva+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Acme&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cantarell&display=swap');
+.judul{
+    font-family: 'Yeseva One', cursive;
+}
+.text{
+  font-family: 'Acme', sans-serif;
+}
+p{
+  font-family: 'Cantarell', sans-serif;
+}
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.footer{
+  width: 100%;
+  height: auto;
+  background-image:url(images/background.jpg);
+  padding: 40px 0;
+}
+.footer-inner{
+  width: 100%;
+  height: auto;
+  
+  padding: 24px;
+}
+.map iframe{
+  width: 100%;
+  height: 340px;
+  border: none;
+}
+.contact-text{
+  width: 100%;
+  height: auto;
+}
+.contact-text h1{
+  font-size: 36px;
+  font-weight: 600;
+  color: cadetblue;
+  margin: 0;
+  padding-top: 25px;
+}
+.contact-text h2{
+  color: darkgreen;
+  font-size: 28px;
+
+}
+.contact-text p{
+  font-size: 14px;
+  color: black;
+  margin: 0;
+  padding-top: 5px;
+  padding-left: 24px;
+  font-weight: 100;
+}
+.footer-mein{
+  width: 100%;
+  height: auto;
+  padding: 30px 0;
+}
+.footer-socmed{
+  width: 100%;
+  height: auto;
+}
+.footer-socmed h3{
+  font-size: 36px;
+  font-weight: 500;
+  color: cadetblue;
+  margin: 0;
+  text-align: left;
+}
+.footer-socmed h3 span{
+  font-size: 14px;
+  font-weight: 200;
+}
+.form-style{
+  width: 300px;
+  height: 45px;
+  padding-left: 10px;
+  border: 1px solid #9999;
+  margin-top: -10px;
+}
+.form-submit{
+  width: 67px;
+  height: 45px;
+  background-color: thistle;
+  border: none;
+  margin-top: -9px;
+  border-radius: 10px;
+
+}
+
+@media only screen and (min-width:360px) and (max-width:479px)
+{
+  .map iframe{
+    height: 360px;
+  }
+  .contact-text{
+    padding: 15px;
+  }
+  .contact-text h1{
+    font-size: 24px;
+    padding-bottom: 10px;
+  }
+  .contact-text h2{
+    font-size: 18px;
+    padding-top: 10px;
+  }
+  .contact-text p{
+    font-size: 12px;
+  }
+  .footer-socmed h3{
+    font-size: 18px;
+  }
+  .footer-socmed h3 span{
+    font-size: 12px;
+  }
+  .form-style{
+    width: 260px;
+    padding-left: 10px;
+    margin-top: 0;
+    font-size: 12px;
+  }
+}
+.warna{
+  background-color: #4D9091
+}
